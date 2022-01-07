@@ -8,8 +8,9 @@ h1{
 .name{
     color: rgb(12, 189, 189);
 }
-section{
+.fixing{
     display: flex;
+    margin-bottom: 100px;
 }
 .adjust{
     width: 50%;
@@ -21,20 +22,54 @@ section{
 }
 .button{
     color:rgb(255, 255, 255) ;
-    background-image: linear-gradient(yellow, purple);
+    background-image: linear-gradient(rgb(255, 255, 0), rgb(90, 255, 14));
 }
 .link-button{
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(141, 141, 39), rgb(236, 126, 236));
+    background-image: linear-gradient(rgb(235, 13, 13), rgb(255, 188, 5));
     color: seashell;
 }
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.about-me{
-    width: 50%;
+.banner-2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.line{
+    color: rgb(255, 166, 0);
+}
+.box{
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.headline{
+    font-size: 40px;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#specific{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
     
 }
+#shadow{
+    border-left: 7px solid;
+    border-image: linear-gradient(red yellow);
+    border-image-slice: 1;
+}
+footer p{
+ text-align: center;
+}
+
